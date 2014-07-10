@@ -154,7 +154,7 @@ func (worker *Worker) poll() {
 	}
 	var job *Job
 	for _, node := range resp.Node.Nodes {
-		job, err = worker.tryAllocateJob(&node)
+		job, err = worker.tryAllocateJob(node)
 		if err != nil {
 			return
 		}
