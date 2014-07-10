@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/opslabjpl/etcdq.git/etcdq"
+	"github.com/opslabjpl/etcdq/etcdq"
 	"log"
 	"os"
 )
